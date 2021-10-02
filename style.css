@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	display: grid;
+	place-items: center;
+	background-color: #1b262c !important;
+	font-family: Verdana, sans-serif;
+}
+
+
+.data-container {
+	width: 600px;
+	height: 384px;
+	position: relative;
+	margin: 0 auto;
+}
+
+
+.bar {
+	width: 28px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	border-radius: 5px; 
+	background-color: #1f4287;
+	transition: 0.2s all ease;
+}
+
+.bar_id {
+	position: absolute;
+	top: -24px;
+	width: 100%;
+	color: #6b778d;
+	text-align: center;
+}
